@@ -1,0 +1,155 @@
+ body{
+    margin-top: 0;
+ }
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige; 
+    margin-top: 0;
+   
+}
+.menu li{
+    list-style: none;
+  
+}
+.meni {
+    width: 80px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+}
+.meni li{
+    margin-top: 10px;
+}
+.meni1 .meni{
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.7s;
+}
+.meni1:hover .meni{
+    margin-top: 20px;
+    background-color: white;
+    opacity: 1;
+    visibility: visible ;
+    transform: 0.7s;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+.menu a:hover{
+    box-shadow: 0 0 20px 5px white;
+    text-shadow: 0 0 5px red;
+    
+}
+
+article{
+    width: 75%;
+    height: 700px;
+    background-color: beige;
+    float: left;
+    font-size: 22px;
+    border-radius: 20px;
+}
+
+aside{
+    width: 25%;
+    height: 700px;
+    float: left;
+    background-color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+aside a{
+    text-decoration: none;
+
+}
+aside a:hover{
+    text-shadow: 0 0 20px rebeccapurple;
+}
+
+.meni{
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: cyan ;
+    text-align: center;
+    border-radius: 20px;
+    
+    
+}
+
+.footer a:hover{
+    color: white;
+    text-shadow: 0 0 5px red;
+    box-shadow: 0 0 20px 5px white;
+
+}
+
+.footer a{
+    text-decoration: none;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.Tel{
+    width: 6%;
+    height: 50px ;
+    background-color: none;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+}
+
+.iconDT {
+    position: absolute;
+    right: 100px;
+    bottom: 34px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    width: 20px;
+    height: 15px;
+    
+}
+
+
+.DT a:hover {
+    text-decoration: underline;
+    box-shadow: 0 0 20px 5px white;
+    text-shadow: 0 0 5px red;
+
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 700px;
+}
+.top-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 30px;
+    background-color:burlywood;
+    height: 30px;
+  }
+  .top-right a {
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+    margin: 5px;
+  }
+  .top-right a:hover{
+    box-shadow: 0 0 20px yellow;
+    text-shadow: 0 0 20px red;
+  }
+/* .kkk{
+    position: fixed;
+} */

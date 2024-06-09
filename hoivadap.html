@@ -1,0 +1,42 @@
+<main>
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v20.0" nonce="XTmZtWtY"></script>
+    <link rel="stylesheet" href="gopy.css">
+    <h1 style="color: red;">Bạn Thắc Mắc Gì?</h1>
+    <form id="form">
+      <div class="input__container">
+        <label for="name">Họ Và Tên</label>
+          <!-- The 'required' prop ensures a filled field before submission -->
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="input__container">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="input__container">
+        <label for="">Bạn Cần Gì</label>
+        <select style="padding: 1rem 2rem; border-radius: 5px; border: 1px solid #555; resize: none;">
+            <option selected>Học Phí Như Thế Nào</option>
+            <option>Thời Gian Học Bao Lâu</option>
+            <option>Giáo Viên Giảng Dạy Tốt Không</option>
+            <option>Chỉ tiêu tuyển sinh của nhà trường là bao nhiêu?</option>
+            <option>Nhà trường có xe đưa đón không?</option>
+            <option>Hồ Sơ Nhập Học Như Thế Nào?</option>
+            <option>Các chế độ ưu đãi dành cho học sinh?</option>
+            <option>Nếu đóng cả năm học phí thì nhà trường có giảm không?</option>
+        </select>
+      </div>
+      <div class="input__container">
+        <label for="message">Ghi Chú</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button>Submit</button>
+    </form>
+    <h4 style="font-size: large;">
+      Comment Sẽ Giải Đáp Thắc Mắc
+    </h4> <br>    
+    <div class="fb-like" data-href="http://127.0.0.1:5500/ASM%20(1)/hoivadap.html" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
+    <div class="fb-comments" data-href="http://127.0.0.1:5500/ASM%20(1)/hoivadap.html" data-width="100%" data-numposts="15"></div>
+
+
+  </main>
